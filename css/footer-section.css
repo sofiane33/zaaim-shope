@@ -1,0 +1,141 @@
+
+
+
+    /* section-footer style */
+
+
+.end{
+    background-color: #000;
+}
+.footer-continer{
+    height: 51vh;
+}
+.footer-continer > div{
+    height: 100%;
+}
+.fo0ter-l-1 , .fo0ter-l-4{
+    flex-grow: 2 ;
+    flex-shrink: 2;
+    max-width: 400px;
+}
+.fo0ter-l-1{
+    overflow: hidden;
+}
+.fo0ter-l-2 , .fo0ter-l-3{
+    flex-grow: 1 ;
+    flex-shrink: 1;
+    max-width: 200px;
+}
+.fo0ter-l-1 .footer-pic{
+    width: 100%;
+    height: 45%;
+}
+.fo0ter-l-1 .footer-pic:hover{
+    transform: scale(1.05);
+    transition: transform 1s;
+}
+.fo0ter-l-1 p{
+  display: inline-block; 
+  width: 90%;
+  height: 35%;
+  left: 0;
+  bottom:  20%;
+  color: var(--color-2);
+   overflow-y: hidden;
+   font-size: 15px;
+   line-height: 1.8;
+}
+.footer-list{
+    display: inline-block;
+    margin: 50px 20px;
+}
+.footer-list li a{
+    color: var(--color-2);
+}
+.footer-list li:nth-child(1){
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom:20px ;
+}
+.footer-list li {
+    margin: 18px 0;
+    font-size: 14px;
+}
+.fo0ter-l-4 form{
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+.fo0ter-l-4 form input{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid var(--color-2);
+    margin: 0px 0px 5px 15px ;
+    position: relative;
+    padding: 0 10px;
+    background-color: transparent;
+    
+} 
+.fo0ter-l-4 form button{
+    border: none;
+}
+.fo0ter-l-4 form .sennt{
+    right: 0;
+    bottom: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.fo0ter-l-4 form .sennt:hover{
+    color: var(--color-1);
+}
+.fotter-icons{
+    margin: 30px 0;
+    justify-content: flex-start;
+    position: absolute;
+    top: 50%;
+}
+.fotter-icons i{
+    color: #fff;
+}
+.fotter-icons a{
+    margin: 0 7px;
+}
+.contact-footer{
+    width: 140px;
+    height: 17%;
+    bottom: 0%;
+    left: 0%;
+    border: 3px groove var(--color-2);
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 4px;
+    cursor: pointer;
+}
+.contact-footer:hover {
+    border: 3px groove var(--color-1);
+}
+.contact-footer.right{
+    left: 150px;
+}
+.contact-footer span{
+    font-size: 11px;
+}
+.contact-footer h1{
+    font-size: 15px;
+}
+.print{
+    right: 0;
+    bottom: 0;
+    color: #fff; 
+    opacity: 0%;
+}
+.print:hover {
+    opacity: 30%;
+    transition-property: opacity;
+    transition-delay: 2s;
+    transition-duration: 2s;
+}
+

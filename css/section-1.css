@@ -1,0 +1,52 @@
+  
+
+  /* section-1 style */
+
+  
+.section-one-pic{  
+    height: 65vh;
+    width: 100%;
+ }
+ .div-pic{
+   
+ }
+ .section-one-points{
+     left: 50%;
+     transform: translateX(-50%);
+     padding: 5px;   
+ }
+ .section-one-points-1{
+     bottom: 30px;
+ }
+ .points-1, .point-3{
+     display: inline-block;
+     width: 12px;
+     height: 12px;
+     margin: 0 2px;
+     border-radius: 50px;
+     cursor: pointer;
+ }
+ .points-1{
+     background-color: #fff;
+ }
+ .points-1:hover{
+     background-color: #000;
+ }
+ .points-1{
+     visibility: hidden;
+     opacity:0%;
+ }
+ .section-one:hover .points-1{
+     visibility: visible;
+     opacity: 100%;
+     transition: visibility 1s , opacity 1.5s;
+ }
+ .point-3:hover{
+     background-color: black;
+     transform: scale(1.2);
+ }
+ .point-3:hover{
+     background-color: black;
+     transform: scale(1.2 );
+ }
+ 

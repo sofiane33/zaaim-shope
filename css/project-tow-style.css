@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+    src: url(webfonts/OFL.txt);
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    padding-top: 112px;
+}
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+  /* colors */
+:root{
+    --color-1: rgb(43, 99, 251);
+    --color-2:  #333;
+}
+/* utils  */
+
+h1.title {
+    text-align: center;
+    margin: 80px 0 10px 0;
+}
+a{
+    text-decoration: none;
+}
+span.line{
+    display : block;
+    width: 55px;
+    height: 3px;
+    background-color: var(--color-1 );
+    margin: 0px auto 40px auto;
+}
+span.line:hover{
+    width: 95px;
+    transition: width .5s;
+}
+.continer{
+    width: 85%; 
+    margin: auto;
+}
+.list-points{
+    list-style: none;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+.display-f{
+    display: flex;
+}
+.display-f-j-b{
+    justify-content: space-between;
+}
+.display-f-j-c{
+    justify-content: center;
+}
+.display-a-i{
+    align-items: center;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.img-layer-comet{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ttc{
+    text-transform: capitalize;
+}
+.margin-o{
+    margin: auto;
+}
+.flex-w-w{
+    flex-wrap: wrap;
+}
+/* navbare secton style  */
+/*  section-one */
+/* section-three  */
+/* section-4 */
+/* section-5 */
+/* section-6 */
+/* section-7 */
+/* footer-section */
+
+
+
+
+

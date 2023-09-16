@@ -1,0 +1,127 @@
+/*
+    ================================
+     tablet media => max width 575px 
+     ===============================
+
+*/
+
+/* navbare section */
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .list-menu-4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        height: 380px;
+        width: 164px; 
+    }
+    .nav-item-list {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+}
+
+/* section-1  */
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .section-one-pic{
+        margin-top: 130px;
+    }
+
+}
+
+/* section-2 */
+
+/* section-3 */
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .section-3-content .content-items{
+        margin: 10px 0;
+    }
+
+}
+
+
+
+/* section-4 */
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .section-4{
+        margin-top: 219px;
+    } 
+    
+    .section-4-content span{
+        width: 41px;
+        
+    }
+    .section-4-content div.div-lines{
+        bottom: 0;
+        right: 0;
+    }
+    .section-4-left-bottom-div p{
+        text-overflow: ellipsis;
+    }
+}
+
+/* section-5 */
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+   .continer-section-5{
+    grid-template-columns: repeat(3,1fr);
+   }
+}
+
+/*  section-6  */
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .section-6-bottom-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+    .section-6-bottom-content .section-6-bottom-items img.section-6-bottom-imgs,
+    .section-6-bottom-content .section-6-bottom-items img.section-6-bottom-imgs-gost{
+        height: 71%;
+    }
+    .section-6-bottom-content{
+        height: 68%;
+    }
+    .section-6-gost-icons{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 10px;
+        left: 30%;
+      }
+      .section-6-gost-icons li{
+          opacity: 75%;
+      }
+ }
+
+ /* section-7 */
+
+ @media screen and (min-width: 576px) and (max-width: 768px){
+    .section-7-continer{
+        margin-top: 445px;
+    }
+    .left-content i {
+        top: 18%;
+    }
+    .section-7-sub-continer{
+        margin-top: 46px;
+    }
+ }
+
+ /* footer-section  */
+ @media screen and (min-width: 576px) and (max-width: 768px){
+    .footer-continer{
+        height: 97vh;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 31px;
+    }
+ }
+
+
+ 
